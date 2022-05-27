@@ -1,0 +1,48 @@
+1.
+
+forEach - it is like for loop and has a callback function and 
+iterates through the array without index and returns undefined.
+
+Map - it is a higherorder function with a callback 
+and modifies the elements in the array into new array.
+
+Filter - it consists of a callback and returns the elements which is true for condition given,
+and makes a new array.
+
+Reduce - it has a callback function consisting of accumulator and current value as its arguements.
+initial value of acc is given and it reduces the whole array elements in to one value.
+
+2. 
+function declaration 
+it is the defining a function and calling it on global scope (callable)
+they can be called using new keyword since they are constuctible
+
+Arrow functions
+they are anonymous functions and they can be assigned to a variable.
+they do not have this key word
+they are only callable and not constructible
+
+3. find - returns the element value which passes the text condition
+   findIndex - returns the index of the element which passes the test condition,
+   it can also take 3 params index element and array
+
+4. filter returns a new array with all object elements which passes the test conditions
+find returns only the first element.
+
+5.
+var - 
+function scope
+can be declared and defined later 
+can be reassigned
+
+let -
+block scope
+can be declared and defined later 
+can be reassigned
+
+const -
+block scope
+can be defined
+cannot be reassigned
+
+
